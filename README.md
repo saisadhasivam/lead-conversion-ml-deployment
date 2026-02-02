@@ -135,7 +135,7 @@ If partial or mismatched features are provided, the API returns a controlled fal
 
 This behavior is intentional and reflects real-world production challenges related to feature alignment.
 
-⸻
+---
 
 ## Containerization (Docker)
 
@@ -146,7 +146,7 @@ The backend service is fully containerized to ensure:
 
 The Docker image installs dependencies from requirements.txt, loads the serialized model, and exposes the Flask API.
 
-⸻
+---
 
 ## Cloud Deployment (Hugging Face Spaces)
 
@@ -157,7 +157,7 @@ The Flask API is deployed as a public Hugging Face Space.
 **Backend URL:**
 https://huggingface.co/spaces/SaiSadhasivam/lead-conversion-backend
 
-⸻
+---
 
 ## Frontend Deployment (Streamlit)
 
@@ -171,7 +171,7 @@ The frontend allows users to:
 	•	Trigger API calls
 	•	View predicted conversion outcomes
 
-⸻
+---
 
 ## API Testing
 
@@ -182,7 +182,7 @@ The backend API was tested using Hoppscotch to validate:
 
 Due to the interactive and external nature of this testing, results are documented via logs and screenshots rather than embedded notebook outputs.
 
-⸻
+---
 
 ## Deployment Summary
 
@@ -196,7 +196,7 @@ The deployment demonstrates:
 
 Although full schema-aligned preprocessing was not implemented due to time constraints, the deployed system clearly highlights the importance of feature alignment in production ML systems.
 
-⸻
+---
 
 ## Limitations
 	•	Input preprocessing and encoding are not yet handled inside the API layer
@@ -205,7 +205,7 @@ Although full schema-aligned preprocessing was not implemented due to time const
 
 These limitations are explicitly acknowledged as realistic trade-offs under time constraints.
 
-⸻
+---
 
 ## Future Enhancements
 	•	Automated input validation and schema enforcement
@@ -214,7 +214,7 @@ These limitations are explicitly acknowledged as realistic trade-offs under time
 	•	Model monitoring and logging
 	•	Versioned model deployments
 
-⸻
+---
 
 ## Repository Structure
 
@@ -228,7 +228,7 @@ lead-conversion-ml-deployment/
 └── README.md
 
 
-⸻
+---
 
 **Author:** Sai Sadasivam
 
