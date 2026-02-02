@@ -1,6 +1,6 @@
 # Lead Conversion Prediction — End-to-End Machine Learning Deployment
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Python-3.10-blue" />
   <img src="https://img.shields.io/badge/Flask-API-black" />
   <img src="https://img.shields.io/badge/Streamlit-Frontend-red" />
