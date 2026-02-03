@@ -245,10 +245,3 @@ This project was developed as part of a Postgraduate Program in Artificial Intel
 
 This project is available for educational and demonstration purposes.
 
----
-
-## Acknowledgments
-
-- The University of Texas at Austin
-- Hugging Face for deployment infrastructure
-- The open-source community for libraries and tools used in this project
